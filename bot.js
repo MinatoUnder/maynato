@@ -10,7 +10,7 @@ const fs = require("fs");
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`العاب و بس || -help`,"http://twitch.tv/S-F")
+client.user.setGame(`RuggerZ Games || r!help`,"https://www.twitch.tv/ninja")
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 console.log('         [Wait please .. ]       ')
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
@@ -240,7 +240,7 @@ client.on('message', message => {
 لعرض النقاط الخاصة بك ➼ نقاطي
  
  ✧▬▬▬▬▬▬ BOT Games ▬▬▬▬▬▬✧`)
- .setFooter("By : Die#1406")
+ .setFooter("By : RuggerZ")
    message.channel.sendEmbed(embed)
    
    }
