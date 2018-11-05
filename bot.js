@@ -10,7 +10,7 @@ const fs = require("fs");
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`RuggerZ Games || r!help`,"https://www.twitch.tv/ninja")
+client.user.setGame(`RuggerZ Games,🌹 || r!help`,"https://www.twitch.tv/ninja")
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 console.log('         [Wait please .. ]       ')
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
@@ -246,4 +246,4 @@ client.on('message', message => {
    }
    });
    
-client.login("token")
+client.login(process.env.BOT_TOKEN);
